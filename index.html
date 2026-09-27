@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Mi primera página accesible</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="#contenido" class="skip-link">Saltar al contenido</a>
+
+<header role="banner">
+<h1>Mi primera página accesible</h1>
+<div class="controles">
+<button id="btn-contraste" aria-pressed="false">Alto contraste</button>
+<button id="btn-mas">A+</button>
+</div>
+</header>
+
+<main id="contenido" role="main">
+<h2>Importancia de las Tecnologías de la Información</h2>
+<p id="texto-principal">
+Las Tecnologías de la Información son el motor fundamental para la transformación digital de las organizaciones modernas. A través de la implementación de software robusto, infraestructura de redes seguras y sistemas en la nube, las empresas pueden optimizar sus procesos operativos y ofrecer soluciones eficientes a sus usuarios. La accesibilidad web garantiza que estas herramientas digitales sean inclusivas y puedan ser utilizadas por todas las personas sin excepción, promoviendo la igualdad de oportunidades en el entorno tecnológico actual.
+</p>
+
+<div class="contenedor-imagen">
+<img id="imagen-ti" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400" alt="Placa base de computadora" class="imagen-normal">
+</div>
+</main>
+
+<div id="avisos" aria-live="polite" class="sr-only"></div>
+
+<footer role="contentinfo">
+<p>Autor: Tedhay Ezron Vilca Quispe</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
